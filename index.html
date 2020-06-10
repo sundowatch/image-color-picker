@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="tr" >
+    <head>
+        <meta charset="utf-8" />
+        <title>Image Color Picker</title>
+        <link href="css/main.css" rel="stylesheet" type="text/css" />
+        <script type="text/javascript" src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+        <script src="https://code.jquery.com/ui/1.12.0/jquery-ui.min.js" integrity="sha256-eGE6blurk5sHj+rmkfsGYeKyZx3M4bG+ZlFyA7Kns7E=" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="js/script.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <div class="column1">
+                <canvas id="panel" width="500" height="333">
+
+                </canvas>
+
+            </div>
+            <div class="placeholder">
+                RESMİ BURAYA YAPIŞTIRIN (CTRL + V)
+            </div>
+            <div id="drg" class="column2 draggable">
+                
+                <div>Renk:</div>
+                <div id="preview"></div>
+                <div>Color:</div>
+                <div>R: <input type="text" id="rVal" /></div>
+                <div>G: <input type="text" id="gVal" /></div>
+                <div>B: <input type="text" id="bVal" /></div>
+                <div>RGB: <input type="text" id="rgbVal" /></div>
+                <div>RGBA: <input type="text" id="rgbaVal" /></div>
+                <div>HEX: <input type="text" id="hexVal" /></div>
+                <hr />
+            </div>
+            <div style="clear:both;"></div>
+        </div>
+    </body>
+</html>
